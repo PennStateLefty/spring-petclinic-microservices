@@ -32,7 +32,7 @@ jobs:
       uses: Azure/get-keyvault-secrets@v1
       with:
         keyvault: ${{ env.KEYVAULT }}
-        secrets: "AZURE-CREDENTIALS-FOR-SPRING"
+        secrets: "AZURE-CREDENTIALS-FOR-SPRING-2"
       id: keyvaultaction
     
     - name: Get MySQL Secrets from Key Vault
